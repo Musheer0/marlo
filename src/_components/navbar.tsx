@@ -44,7 +44,20 @@ const Navbar = () => {
       }
     },[isOpen])
   return (
-    <nav className='flex items-center justify-between'>
+    <motion.nav
+    initial={{
+        opacity:0,
+        translateY: '-100%'
+    }}
+    animate={{
+                opacity:1,
+        translateY: '0%'
+    }}
+    transition={{
+        duration: .77,
+        ease: 'anticipate'
+    }}
+    className='flex items-center justify-between'>
      <div className="logo flex items-center gap-1 justify-center">
            <Image src={'/logo.png'} width={32} height={32} alt='logo' className=' rotate-90'/>
            <p className='text-xl pt-2'>Marlo</p>
@@ -98,7 +111,7 @@ const Navbar = () => {
         <button className='bg-yellow-500 px-5 rounded-lg py-2'>Sign-up</button>
         </ul>
     </motion.div>
-    </nav>
+    </motion.nav>
   )
 }
 

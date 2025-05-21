@@ -28,10 +28,10 @@ const Features = () => {
             </h3>
             <p className='text-zinc-500 text-center mx-auto leading-none max-w-xl  py-2 '>Marlo&apos; AI agents work aground the check to uncover revenue signals, analyze your GTM engine , and deliver actions - not just data</p>
              <CTABUTTON text='Learn more' className='mx-auto mt-2'/>
-             <div className="cards flex flex-wrap items-center justify-between gap-5 py-2 pt-10">
-                   <div className="card flex mx-auto h-[420px] rounded-xl w-[400px] bg-[#e3f3eb] shadow-md p-4   flex-col ">
-                    <div className="top flex-1 gap-2 px-2 relative flex items-center justify-center">
-                      <div className="left-circle opacity-60 shrink-0 bg-white p-7 rounded-full">
+             <div className="cards flex flex-wrap items-center justify-around gap-5 py-2 pt-10">
+                   <div className="card flex mx-auto h-fit min-h-[420px] rounded-xl flex-1 max-w-[400px] bg-[#e3f3eb] shadow-md p-4   flex-col ">
+                    <div className="top flex-1 w-full gap-2 px-2 relative overflow-hidden flex items-center justify-center">
+                      <div className="left-circle sm:flex hidden opacity-60 shrink-0 bg-white p-7 rounded-full">
                         <div className='rounded-full bg-gradient-to-tl from-[#7afdbc] shadow-md p-2 flex items-center justify-center relative to-[#ecf3ef] '>
                       <img src="https://imgs.search.brave.com/DOLppDak62hL22FuKysxCIuPVGCMx-X_o6S5R3_V87Q/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvcHJl/dmlld3MvMDIxLzA1/OS84Mjcvbm9uXzJ4/L2NoYXRncHQtbG9n/by1jaGF0LWdwdC1p/Y29uLW9uLXdoaXRl/LWJhY2tncm91bmQt/ZnJlZS12ZWN0b3Iu/anBn"
                       className='w-4.5 h-4.5 object-contain mix-blend-multiply opacity-80'
@@ -43,7 +43,7 @@ const Features = () => {
                           <Image src={'/logo.png'} width={50} height={50} className='rotate-90 p-2 opacity-80' alt='logo'/>
                         </div>
                       </div>
-             <div className="right-circle shrink-0 opacity-60 bg-white p-7 rounded-full">
+             <div className="right-circle sm:flex hidden shrink-0 opacity-60 bg-white p-7 rounded-full">
                         <div className='rounded-full bg-gradient-to-tl from-[#7afdbc] shadow-md p-2 flex items-center justify-center relative to-[#ecf3ef] '>
                       <img src="https://brandlogos.net/wp-content/uploads/2025/02/deepseek_logo_icon-logo_brandlogos.net_s5bgc.png"
                       className='w-4.5 h-4.5 object-contain mix-blend-multiply opacity-80'
@@ -60,7 +60,7 @@ const Features = () => {
                       </p>
                     </div>
                    </div>
-                     <div className="card flex mx-auto h-[420px] rounded-xl w-[400px] bg-[#FFF7E0] shadow-md p-4   flex-col ">
+                     <div className="card flex mx-auto h-fit min-h-[420px] rounded-xl flex-1 max-w-[400px]  bg-[#FFF7E0] shadow-md p-4   flex-col ">
                     <div className="top flex-1 gap-2 px-2 relative flex-col flex pt-10">
                          <div className="main-toast z-10 flex h-fit items-center gap-3 bg-white pl-3 pr-7 py-4 rounded-full shadow-md">
                            <div className='bg-gradient-to-tl from-yellow-500 to-yellow-100 p-3 rounded-full'>
@@ -93,7 +93,7 @@ const Features = () => {
                       </p>
                     </div>
                    </div>
-                     <div className="card flex mx-auto h-[420px] rounded-xl w-[400px] bg-[#FBEEFF] shadow-md p-4 px-0   flex-col ">
+                     <div className="card flex mx-auto h-fit min-h-[420px] rounded-xl flex-1 max-w-[400px]  w-full bg-[#FBEEFF] shadow-md p-4 px-0   flex-col ">
                     <div className="top flex-1 overflow-hidden gap-2 relative flex-col flex ">
                         <img src="/card-carsol.png" className='object-cover' alt="" />
                     </div>

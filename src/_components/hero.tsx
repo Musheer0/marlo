@@ -19,13 +19,13 @@ const Hero = () => {
   return (
     <div className='w-full flex  pt-10 h-full min-h-screen'>
         <div className="left flex-1 flex flex-col ">
-            <h1 className={`${font.className} text-[10vw] sm:pt-20 lg:text-[5.4vw] leading-none`}>
+            <h1 className={`${font.className} text-[10vw] sm:text-[5.4vw] leading-none`}>
                 AI-Powered  <span className='opacity-30'>marketing</span> intellingence Turn chaos intro clarity
             </h1>
             <p className='text-zinc-700 leading-none max-w-xl py-10 '>
                 Marlo&apos;s Ai agents hiddent revenue opportunities,automate deep reporting , and give you real time account level insights
             </p>
-            <div className="actions flex items-center gap-3">
+            <div className="actions flex-wrap flex items-center gap-3">
                <CTABUTTON/>
                 <button className='hover:underline px-4 py-2 uppercase cursor-pointer'>See how it works</button>
             </div>

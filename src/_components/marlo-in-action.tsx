@@ -15,7 +15,7 @@ const MARLOINACTION = () => {
              <p className='text-sm text-zinc-400 py-5'>
                     See how Marlo turns noisy GTM data into revenue-driving clarity <br/> in minutes - not months
                 </p>
-                      <div className="actions flex items-center gap-3">
+                      <div className="actions flex-wrap flex items-center gap-3">
                <CTABUTTON text='learn more'/>
                 <button className='hover:underline px-4 py-2 uppercase cursor-pointer'>See how it works</button>
             </div>
