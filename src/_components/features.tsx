@@ -28,8 +28,8 @@ const Features = () => {
             </h3>
             <p className='text-zinc-500 text-center mx-auto leading-none max-w-xl  py-2 '>Marlo&apos; AI agents work aground the check to uncover revenue signals, analyze your GTM engine , and deliver actions - not just data</p>
              <CTABUTTON text='Learn more' className='mx-auto mt-2'/>
-             <div className="cards flex items-center justify-between py-2 pt-10">
-                   <div className="card flex h-[420px] rounded-xl w-[400px] bg-[#e3f3eb] shadow-md p-4   flex-col ">
+             <div className="cards flex flex-wrap items-center justify-between gap-5 py-2 pt-10">
+                   <div className="card flex mx-auto h-[420px] rounded-xl w-[400px] bg-[#e3f3eb] shadow-md p-4   flex-col ">
                     <div className="top flex-1 gap-2 px-2 relative flex items-center justify-center">
                       <div className="left-circle opacity-60 shrink-0 bg-white p-7 rounded-full">
                         <div className='rounded-full bg-gradient-to-tl from-[#7afdbc] shadow-md p-2 flex items-center justify-center relative to-[#ecf3ef] '>
@@ -60,7 +60,7 @@ const Features = () => {
                       </p>
                     </div>
                    </div>
-                     <div className="card flex h-[420px] rounded-xl w-[400px] bg-[#FFF7E0] shadow-md p-4   flex-col ">
+                     <div className="card flex mx-auto h-[420px] rounded-xl w-[400px] bg-[#FFF7E0] shadow-md p-4   flex-col ">
                     <div className="top flex-1 gap-2 px-2 relative flex-col flex pt-10">
                          <div className="main-toast z-10 flex h-fit items-center gap-3 bg-white pl-3 pr-7 py-4 rounded-full shadow-md">
                            <div className='bg-gradient-to-tl from-yellow-500 to-yellow-100 p-3 rounded-full'>
@@ -93,7 +93,7 @@ const Features = () => {
                       </p>
                     </div>
                    </div>
-                     <div className="card flex h-[420px] rounded-xl w-[400px] bg-[#FBEEFF] shadow-md p-4 px-0   flex-col ">
+                     <div className="card flex mx-auto h-[420px] rounded-xl w-[400px] bg-[#FBEEFF] shadow-md p-4 px-0   flex-col ">
                     <div className="top flex-1 overflow-hidden gap-2 relative flex-col flex ">
                         <img src="/card-carsol.png" className='object-cover' alt="" />
                     </div>

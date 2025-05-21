@@ -24,7 +24,7 @@ const menuLinks = [
 ];
 const Footer = () => {
   return (
-   <footer className='flex items-start justify-between pb-10 py-20'>
+   <footer className='flex flex-wrap gap-10 items-start justify-between pb-10 py-20'>
     <div className="company">
      <div className="logo flex items-start gap-1">
        <Image src='/logo.png' width={65} height={70} className='rotate-90' alt='logo'/>
@@ -32,9 +32,9 @@ const Footer = () => {
             Marlo
         </h4>
      </div>
-        <p className='text-sm max-w-lg text-zinc-600'>Marlo&apos;s  Ai agents surface hidden revenue opportunities, automate deep reporting, and give you real time account-level insights.</p>
+        <p className='text-sm max-w-md text-zinc-600'>Marlo&apos;s  Ai agents surface hidden revenue opportunities, automate deep reporting, and give you real time account-level insights.</p>
     </div>
-    <div className="links flex items-start gap-40">
+    <div className="links flex flex-wrap items-start gap-10  justify-between flex-1 min-w-[250px] xl:gap-40">
         {menuLinks.map((menu,i)=>{
             return(
                 <div key={i}>

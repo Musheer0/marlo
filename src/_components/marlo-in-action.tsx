@@ -24,8 +24,8 @@ const MARLOINACTION = () => {
                
             </div>
         </div>
-        <div className='px-20 bg-[#FDD402] rounded-lg'>
-          <img src="/action.jpg" className='h-[350px] rotate-90' alt="" />
+        <div className='md:flex mx-auto  hidden lg:px-20  lg:bg-[#FDD402] rounded-lg'>
+          <img src="/action.jpg" className='h-[350px] rotate-90 object-cover' alt="" />
         </div>
     </div>
   )

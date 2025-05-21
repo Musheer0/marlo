@@ -25,7 +25,7 @@ const cards = [
 const B2B = () => {
   return (
     <div className='py-10'>
-        <div className="header flex  justify-between">
+        <div className="header flex flex-wrap  justify-between">
             <div className="left flex-1">
                      <h3 className={`${font.className} text-5xl`}>
              B2B marketing and <br/> sales teams love Marlo
@@ -33,7 +33,7 @@ const B2B = () => {
             <CTABUTTON text='learn more' className='my-3'/>
             </div>
             <div className="right max-w-sm">
-                <p>
+                <p className=' text-zinc-500'>
                     Marlo&apos;s helps Marketing teams report on pipeline from the first imppresion to closed won and slaes teams to automate their manual workflows with AI workflows
                 </p>
             </div>
