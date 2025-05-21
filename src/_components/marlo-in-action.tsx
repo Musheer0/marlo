@@ -6,7 +6,7 @@ const font = EB_Garamond({
 })
 const MARLOINACTION = () => {
   return (
- <div className='py-10 flex justify-between'>
+ <div className='py-10 flex justify-between w-full '>
         <div className="header">
             <div className="left">
                      <h3 className={`${font.className} text-5xl`}>
@@ -24,7 +24,7 @@ const MARLOINACTION = () => {
                
             </div>
         </div>
-        <div className='md:flex mx-auto  hidden lg:px-20  lg:bg-[#FDD402] rounded-lg'>
+        <div className='md:flex  hidden lg:px-20  lg:bg-[#FDD402] rounded-lg'>
           <img src="/action.jpg" className='h-[350px] rotate-90 object-cover' alt="" />
         </div>
     </div>

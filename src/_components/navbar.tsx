@@ -65,10 +65,11 @@ const Navbar = () => {
 
     {/* responsive links */}
     {!isOpen && <button
+
     onClick={()=>{
         setIsOpen(true)
     }}
-    className='p-2 hover:bg-zinc-900/10 rounded-lg'><MenuIcon/></button>}
+    className='p-2 hover:bg-zinc-900/10 rounded-lg lg:hidden'><MenuIcon/></button>}
   <motion.div
   animate={navbarAnimationControls}
   initial={{
@@ -83,7 +84,7 @@ const Navbar = () => {
   className="links top-0 z-50 left-0 lg:hidden   lg:w-fit w-full lg:flex-row flex-col lg:relative flex fixed items-center gap-2 lg:h-fit h-full bg-zinc-950 pl-5 overflow-hidden " >
         <button onClick={()=>{
             setIsOpen(!isOpen)
-        }} className='text-white w-full cursor-pointer p-5 flex- items-end justify-end'>
+        }} className='text-white lg:hidden w-full cursor-pointer p-5 flex- items-end justify-end'>
             <XIcon className='ml-auto'/>
         </button>
         <ul className='flex items-center gap-10 p-2 lg:flex-row flex-col    justify-between text-zinc-100  '>
